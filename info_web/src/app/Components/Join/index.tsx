@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Join() {
     return (
-        <div className="lg:grid  lg:grid-cols-2 flex flex-col-reverse">
+        <div className="lg:grid px-5 lg:grid-cols-2 flex flex-col-reverse">
             <div className="ml-[5%] flex justify-center">
                 <Image
                     src={"/join.png"}
