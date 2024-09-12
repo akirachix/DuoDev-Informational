@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Values from "./Components/Values";
+import Join from "./Components/Join";
 
 export default function Home  (){
 return (
   <div>
-    <Values/>
+    <Join/>
   </div>
 
 )
