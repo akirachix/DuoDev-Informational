@@ -9,7 +9,7 @@ export default function Values() {
                     alt="values"
                     width={700}
                     height={700}
-                ></Image>
+                />
             </div>
             <div className="mt-[20%]">
                 <h1 className=" md:text-5xl text-3xl lg:mt-[10%] text-center font-bold text-artisticblue">Values</h1>

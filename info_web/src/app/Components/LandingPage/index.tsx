@@ -15,7 +15,7 @@ export default function LandingPage() {
                     community-driven fashion.
                 </p>
             </div>
-            <div className="md:ml-[10%] lg:ml-2">
+            <div className="md:mx-[5%] lg:ml-2">
                 <Image
                     src={"/sustainabletrends.png"}
                     width={750}

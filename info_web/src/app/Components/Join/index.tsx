@@ -9,7 +9,7 @@ export default function Join() {
                     alt="join"
                     width={500}
                     height={500}
-                ></Image>
+                />
             </div>
             <div className="mt-[10%] lg:mr-[20%] text-center">
                 <h1 className="text-[32px] font-bold  text-artisticblue">Join the Sustainable Fashion Movement</h1>
