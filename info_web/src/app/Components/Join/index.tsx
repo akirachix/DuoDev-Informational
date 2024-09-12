@@ -12,7 +12,7 @@ export default function Join() {
                 ></Image>
             </div>
             <div className="mt-[10%] lg:mr-[20%] text-center">
-                <h1 className="text-[30px] text-artisticblue">Join the Sustainable Fashion Movement</h1>
+                <h1 className="text-[30px] font-bold  text-artisticblue">Join the Sustainable Fashion Movement</h1>
                 <p className="text-[20px] mt-6">Ready to make a difference? Join us in revolutionizing the fashion industry by choosing eco-friendly options and supporting a greener future. Sign up to stay updated on our latest collections, events, and more.</p>
                 <button className="bg-forestgreen text-[20px] cursor-pointer text-white w-[150px] h-[50px] rounded-[20px] mt-9">Join</button>
             </div>
