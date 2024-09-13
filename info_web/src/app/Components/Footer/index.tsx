@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="w-[100%] bg-artisticblue text-slate-200">
+        <footer className="w-[100%] bg-artisticblue text-slate-200" id="contact">
             <div className="mx-[5%]">
                 <h1 className="text-center md:text-xl p-[30px]">©2024 Eco-Threads Hub</h1>
                 <hr className="w-[100%] pb-9"/>
