@@ -1,0 +1,54 @@
+name: Deploy to Vercel
+
+# Trigger workflows on PRs to dev and staging, and pushes to main
+on:
+  pull_request:
+    branches:
+      - dev
+      - staging
+  push:
+    branches:
+      - main
+
+jobs:
+  install_and_build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # Change this to your project's required Node.js version
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+  deploy_to_vercel:
+    if: github.ref == 'refs/heads/main'  # Run only on the main branch
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to Vercel
+        run: |
+          npm i -g vercel
+          vercel --prod --token ${{ secrets.VERCEL_TOKEN }}  # Use Vercel token stored in GitHub Secrets
