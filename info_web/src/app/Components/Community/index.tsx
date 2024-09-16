@@ -17,7 +17,8 @@ export default function Community() {
                             />
                         </section>
                     </div>
-                    <p className="m-3 md:text-xl text-[16px]">"I've always been mindful of my environmental impact, and Eco-Threads Hub has been a game-changer. From recycled home decor to eco-friendly accessories, I can find everything I need to live sustainably.”</p>
+                    <p className="m-3 md:text-xl text-[16px]">
+                        &quot;I&apos;ve always been mindful of my environmental impact, and Eco-Threads Hub has been a game-changer. From recycled home decor to eco-friendly accessories, I can find everything I need to live sustainably.&quot;</p>
                     <h1 className="m-2 text-center pb-5 md:font-bold   text-xl"> Emily, Eco- Shopper</h1>
                 </div>
                 <div className="sm:mt-5">
@@ -32,7 +33,8 @@ export default function Community() {
                             />
                         </section>
                     </div>
-                    <p className="m-3  md:text-xl text-[16px]">"Eco-Threads Hub not only helps me source ethically-made and recycled products but also connects me with recycling partners. It's an all-in-one platform for running my sustainable business."</p>
+                    <p className="m-3 md:text-xl text-[16px]">
+                    &quot;Eco-Threads Hub not only helps me source ethically-made and recycled products but also connects me with recycling partners. It&apos;s an all-in-one platform for running my sustainable business.&quot;</p>
                     <h1 className="m-2 text-center pb-5 md:font-bold text-xl ">Carlos, Eco-Seller</h1>
                 </div>
                 <div className="sm:mt-5">
@@ -47,7 +49,8 @@ export default function Community() {
                             />
                         </section>
                     </div>
-                    <p className="m-3 md:text-xl text-[16px]">"Living sustainably doesn't mean sacrificing quality or style. Thanks to Eco-Threads Hub, I'm able to find innovative, recycled products that match my lifestyle and values."</p>
+                    <p className="m-3 md:text-xl text-[16px]">
+                    &quot;Living sustainably doesn&apos;t mean sacrificing quality or style. Thanks to Eco-Threads Hub, I&apos;m able to find innovative, recycled products that match my lifestyle and values.&quot;</p>
                     <h1 className="m-2 text-center  md:font-bold text-xl ">Aisha,  Eco-Recycler</h1>
                 </div>
             </div>
